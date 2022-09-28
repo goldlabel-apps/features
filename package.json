@@ -1,18 +1,11 @@
 {
-  "name": "npm-react-typescript-template",
-  "version": "1.0.0",
-  "description": "A template for publishing a React + TypeScript package to npm",
-  "author": "ovieokeh",
-  "license": "Apache-2.0",
-  "repository": "ovieokeh/npm-react-typescript-template",
-  "main": "dist/index.js",
-  "engines": {
-    "node": ">=8",
-    "npm": ">=5"
-  },
+  "name": "@listingslab-software/features",
+  "version": "0.3.5",
+  "description": "React relating to a particular concern are kept together in a namespaced folder under in features directory",
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "test": "exit 0"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -30,6 +23,17 @@
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.25.3",
     "typescript": "^2.8.3"
+  },
+  "license": "MIT",
+  "author": "listingslab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listingslab-software/features.git"
+  },
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
   },
   "files": [
     "dist"
