@@ -1,18 +1,42 @@
 {
-  "version": "0.3.5",
-  "name": "@listingslab-software/features",
-  "description": "React relating to a particular concern are kept together in a namespaced folder under in features directory",
+  "name": "npm-react-typescript-template",
+  "version": "1.0.0",
+  "description": "A template for publishing a React + TypeScript package to npm",
+  "author": "ovieokeh",
+  "license": "Apache-2.0",
+  "repository": "ovieokeh/npm-react-typescript-template",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
   "scripts": {
-    "test": "exit 0"
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
-  "publishConfig": {
-    "@listingslab-software:registry": "https://npm.pkg.github.com"
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
   },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/listingslab-software/features.git"
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^2.8.3"
   },
-  "author": "listingslab",
-  "license": "MIT"
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "npm"
+  ]
 }

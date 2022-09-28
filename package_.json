@@ -1,0 +1,18 @@
+{
+  "version": "0.3.5",
+  "name": "@listingslab-software/features",
+  "description": "React relating to a particular concern are kept together in a namespaced folder under in features directory",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "publishConfig": {
+    "@listingslab-software:registry": "https://npm.pkg.github.com"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listingslab-software/features.git"
+  },
+  "author": "listingslab",
+  "license": "MIT"
+}
